@@ -13,3 +13,5 @@ g++ -o out/randimagen obj/main.o obj/io.o obj/comp.o obj/rnd_rgba_img.o obj/cla.
 You'll solve it, but to ensure that the project at least aproximates it's proper behaviour, define the function inside the header, for the 
  time being.
 After more thinking, the 'function' was turned into a macro.
+Integrating into 'randimagen' wasn't succesful, proper methods to 'define' your own library are needed.
+Yes, the test works, but 'randimagen' doesn't, so there must be something wrong, something that you forgot and need to pay attention to.
