@@ -3,6 +3,8 @@
 
 #define _HELP_CMD_ "help"
 
-int check_help_cmd(int, char*[]); 
+#include <string.h>
+
+#define check_help_cmd(count, cmdln) ((2==(count) && 0==strcmp((cmdln)[1], _HELP_CMD_)) ? 1 : 0)
 
 #endif//_COMMON_CLA_OP_H_
