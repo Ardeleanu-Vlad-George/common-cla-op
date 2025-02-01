@@ -15,3 +15,6 @@ You'll solve it, but to ensure that the project at least aproximates it's proper
 After more thinking, the 'function' was turned into a macro.
 Integrating into 'randimagen' wasn't succesful, proper methods to 'define' your own library are needed.
 Yes, the test works, but 'randimagen' doesn't, so there must be something wrong, something that you forgot and need to pay attention to.
+
+# Note
+It needs to be archived, the projects assumptions are wrong.
